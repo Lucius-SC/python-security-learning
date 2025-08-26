@@ -16,3 +16,37 @@ Xin chào! Đây là hành trình 30 ngày tự học **Python + Security** củ
 - `days/`: Bài tập từng ngày
 - `mini_tools/`: Script nhỏ áp dụng thực tế
 - `docs/`: Tài liệu tham khảo
+# Python Security Learning Project 🐍🔒
+
+Repo này lưu lại toàn bộ hành trình 30 ngày học Python & bảo mật (theo dạng day-by-day).  
+Mỗi **Day** có code riêng kèm commit rõ ràng để dễ theo dõi tiến trình.  
+
+---
+
+## 📅 Progress
+
+### ✅ Day 1: Username & Password Validation
+- Viết hàm kiểm tra `username`:
+  + Độ dài 5–15 ký tự
+  + Không bắt đầu bằng số
+  + Chỉ chứa chữ, số và `_`
+
+- Viết hàm kiểm tra `password`:
+  + Tối thiểu 8 ký tự
+  + Có chữ hoa, chữ thường, số, ký tự đặc biệt
+
+👉 File: `day1_validation.py`
+
+---
+
+### ✅ Day 2: Fullname & Age Validation
+- Viết hàm kiểm tra `fullname`:
+  + Không để trống hoặc chỉ có khoảng trắng
+  + Độ dài từ 3–50 ký tự
+  + Chỉ chứa chữ cái và khoảng trắng
+
+- Viết hàm kiểm tra `age`:
+  + Là số nguyên
+  + Giá trị từ 1–120
+
+👉 File: `day2_validation.py`
